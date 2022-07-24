@@ -1,0 +1,168 @@
+/*----------common style start----------*/
+
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+:root {
+  --primary-color: #ff5200;
+  --white-color:white;
+}
+
+.common_button{
+    cursor: pointer;
+    border: 2px solid var(--primary-color);
+    background: transparent;
+    padding: 10px 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+
+
+}
+
+.common_button:hover{
+    background: var(--primary-color);
+    color: white;
+}
+
+.section_title h1::before{
+    content: '';
+    position: absolute;
+    border-bottom: 4px solid var(--primary-color);
+    margin-top: 24px;
+    margin-left: -24px;
+    transition: all .3s ease-in-out;
+    width: 20px;
+}
+
+.section_title h1::after{
+    content: '';
+    position: absolute;
+    border-bottom: 4px solid var(--primary-color);
+    margin-top: 26px;
+    margin-left: 6px;
+    transition: all .3s ease-in-out;
+    width: 20px;
+}
+
+/*----------common style end----------*/
+
+/* header start */
+.navbar{
+    background:var(--white-color);
+    position: fixed;
+    top: 0;
+}
+
+.navbar-brand{
+    border-bottom: 2px solid var(--primary-color);
+    font-size: 22px !important;
+    text-transform: uppercase;
+    margin-bottom: 0 !important;
+    
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar_ul li a {
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.navbar_ul li a::before{
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid var(--primary-color);
+    top: 40px;
+    margin-left: 0px;
+    transition: all .3s ease-in-out;
+    width: 0px;
+}
+
+.navbar_ul li a:hover::before{
+    width: 50px !important;
+}
+
+.theme_choose{
+    font-size: 20px !important;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    padding: 2px 7px !important;
+    
+}
+.theme_choose:hover{
+    background: var(--primary-color);
+    color: white !important;
+}
+.theme_choose:hover::before{
+    display: none;
+}
+
+.navbar .navbar-toggler {
+    border-color: transparent;
+    color: transparent;
+}
+
+.navbar .navbar-toggle:focus{
+    border: none;
+    outline: none;
+}
+
+.navbar .navbar-toggler .icon-bar{
+    background-color: rgb(241, 9, 9) !important;
+ }
+
+/* header end */
+
+
+/* my intro start */
+.start_my_details{
+    background-image: url(images/shape/7.png);
+    position: relative;
+}
+.intro_desc{
+    padding-top: 60px;
+}
+.intro_desc span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.intro_desc h1{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+}
+
+.intro_desc p{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 30px;
+}
+.intro_desc img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* my intro end */
+
+/* about me start  */
+.about_me{
+    padding: 80px 0px;
+}
+
+.section_title h1{
+    text-align: center;
+}
+/* about me end */

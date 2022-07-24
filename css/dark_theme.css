@@ -1,0 +1,54 @@
+:root {
+    --primary-color-dark-theme: #030f1b;
+  }
+
+  body{
+    background-color: var(--primary-color-dark-theme) !important;
+  }
+
+  .navbar_dark_theme{
+    background: var(--primary-color-dark-theme);
+  }
+  
+  .navbar_ul li a{
+    color: rgb(226, 217, 217);
+  }
+
+  .navbar_ul li a:hover{
+    color: #c0b5b5;
+  }
+
+  .navbar_brand_dark{
+    color: white !important;
+  }
+
+  .navbar-toggler{
+    color: white !important;
+  }
+
+
+  .intro_desc-dark span{
+    color: white;
+  }
+
+  .intro_desc-dark p{
+    color: white;
+  }
+
+  .common_button{
+    color: white;
+  }
+
+  .section_title_dark{
+    color: white;
+  }
+
+  .navbar .navbar-toggler_dark {
+    border-color: none;
+    color: transparent  !important;
+}
+
+  .navbar_dark_theme .navbar-toggler_dark:focus{
+    border: none;
+    outline: none;
+  }
