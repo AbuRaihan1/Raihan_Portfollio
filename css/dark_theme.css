@@ -52,3 +52,18 @@
     border: none;
     outline: none;
   }
+.services_content_dark{
+  border: 1px solid #1d1c1c;
+}
+
+.services_content_dark:hover{
+  border: 1px solid #1d1c1c;
+}
+  .services_content_dark h2, p{
+    color: white;
+  }
+
+  .nav_and_tabs_dark ul li a{
+    color: white;
+    font-weight: 500;
+  }
