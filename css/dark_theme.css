@@ -67,3 +67,16 @@
     color: white;
     font-weight: 500;
   }
+
+  .skill_wrapper_dark p{
+    color: white;
+    font-weight: 500;
+  }
+
+  .progress{
+    background: rgb(3, 3, 3) !important;
+  }
+
+  .carousel-caption p{
+    font-weight: 400;
+  }

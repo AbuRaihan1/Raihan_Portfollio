@@ -193,6 +193,10 @@ body {
 /* about me end */
 
 /* services start */
+
+.services{
+  padding: 40px 0px;
+}
 .services_content {
   border: 1px solid #e2dcdc;
   padding: 20px;
@@ -286,3 +290,148 @@ body {
 
 
 /* services end */
+
+
+/* my skill start */
+.skills{
+  padding: 40px 0;
+}
+.skills > h2{
+  padding: 40px 0;
+}
+.progress_wrapper p{
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.progress{
+  margin: 20px 0;
+  border-radius: 20px !important;
+  background-color: rgb(228, 216, 216) !important;
+}
+
+.progress-bar{
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 17px;
+  background: var(--primary-color) !important;
+  border-radius: 20px !important;
+}
+
+/* my skill end */
+
+/* project start  */
+
+.my_project{
+  padding: 40px 0;
+}
+.projects_wrapper{
+  border: 1px solid var(--primary-color);
+  border-radius: 10px 0px;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  cursor: pointer;
+  position: relative;
+  transition: all .3s ease-in-out;
+  margin: 20px 0;
+}
+.projects_wrapper img{
+  width: 100%;
+  border-radius: 10px 0px;
+  height: 250px;
+}
+.projects_wrapper::before{
+  content: '';
+  height: 0;
+  background: #ff5100d3;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  transition: all .3s ease-in-out;
+  border-radius: 10px 0px;
+}
+
+.projects_wrapper:hover{
+  border: 1px solid #ff5100d3;;
+}
+
+.projects_wrapper:hover::before{
+  height: 100%;
+}
+
+.hide_projects{
+  text-align: center;
+  position: absolute;
+  top:50%; 
+  left:50%; 
+  transform:translate(-50%, -50%); 
+  color: white;
+  visibility: hidden;
+  text-decoration: none;
+}
+.hide_projects:hover{
+  color: white;
+}
+.projects_wrapper:hover .hide_projects{
+  visibility: visible;
+}
+
+/* project end  */
+
+.testimonial{
+  padding: 50px 0;
+}
+
+.carousel-inner{
+  /* background: var(--primary-color); */
+  padding: 35px;
+}
+
+.carousel-item{
+  height: 300px;
+}
+
+.carousel-caption h2{
+  padding: 20px 0 !important;
+}
+.img_box{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.carousel-item img{
+  width: 100%;
+}
+
+.carousel-item p{
+  color: black;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.carousel-item h2{
+  color: var(--primary-color);
+  font-family: "Roboto Slab", serif;
+  font-weight: bolder;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background: var(--primary-color);
+  border-radius: 50%;
+  height: 40px !important;
+  width: 40px !important;
+}
+
+.carousel_star_icon i{
+  color: var(--primary-color);
+}
+
+.carousel-indicators button{
+  background: var(--primary-color) !important;
+  height: 1px !important;
+  width: 10px !important;
+  border-radius:10px;
+  transform: rotate(-90deg) !important;
+  margin:0 10px !important;
+}

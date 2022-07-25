@@ -16,6 +16,12 @@
    .about_me_details p{
       margin-top:-40px;
    }
+
+   
+   
+   .carousel-item{
+      height: 350px;
+    }
 }
 
 @media screen and (max-width:500px){
